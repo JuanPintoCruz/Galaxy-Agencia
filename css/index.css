@@ -1,0 +1,141 @@
+.contenedor {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow:  1px solid #808080;
+    background-color: rgba(246, 247, 251);
+}
+
+.card img {
+    max-width: 100%;
+}
+.card-text{
+    font-size: 1rem;
+}
+.card-text-2{
+font-size: 1rem;
+}
+.card-buton {
+background-color: #3498db;
+color: #fff; /* Color del texto */
+padding: 10px 20px; /* Espaciado interno */
+font-size: 16px; /* Tamaño del texto */
+border: none; /* Sin borde */
+border-radius: 5px; /* Bordes redondeados */
+cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+transition: background-color 0.3s ease; /* Efecto de transición en el color de fondo */
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+text-decoration: none;
+}
+.card-buton {
+text-decoration: none !important;
+}
+.card-buton:hover {
+    background-color: #2980b9;
+    text-decoration: none !important;
+}
+.card-boton {
+background-color: #3498db; /* Color de fondo */
+color: #fff; /* Color del texto */
+padding: 10px 20px; /* Espaciado interno */
+font-size: 16px; /* Tamaño del texto */
+border: none; /* Sin borde */
+border-radius: 5px; /* Bordes redondeados */
+cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+transition: background-color 0.3s ease; /* Efecto de transición en el color de fondo */
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+text-decoration: none;
+}
+.card-boton:hover {
+background-color: #2980b9;
+text-decoration: none; /* Evita el subrayado de enlace en el estado de hover */
+}
+.card-title{
+    font-size: 1.5rem;
+    color:red;
+}
+.button a {
+    text-decoration: none;
+}
+.card-boton a {
+color: inherit; /* Hereda el color del texto del contenedor padre (en este caso, .card-boton) */
+text-decoration: none; /* Elimina cualquier decoración de texto */
+}
+.card-buton a {
+color: inherit; /* Hereda el color del texto del contenedor padre (en este caso, .card-boton) */
+text-decoration: none; /* Elimina cualquier decoración de texto */
+}
+.titulo{
+    color:#2980b9;
+    font-size: 3rem;
+}
+
+.whatsapp-botton {
+display: inline-block;
+margin: 10px;
+padding: 10px 15px;
+background-color: #25D366; /* Color de fondo de WhatsApp */
+color: #fff; /* Color del texto */
+border: none;
+border-radius: 18px;
+font-size: 16px;
+text-decoration: none;
+transition: background-color 0.3s ease; 
+}
+.whatsapp-botton i {
+    margin-right: 5px;
+}
+
+
+.whatsapp-botton:hover {
+    background-color: #128C7E; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+    text-decoration: none; /* Evita el subrayado de enlace en el estado de hover */
+}
+.whatsapp-button {
+display: inline-block;
+margin: 10px;
+padding: 10px 15px;
+background-color: #25D366; /* Color de fondo de WhatsApp */
+color: #fff; /* Color del texto */
+border: none;
+border-radius: 18px;
+font-size: 16px;
+text-decoration: none;
+transition: background-color 0.3s ease; 
+}
+.whatsapp-button i {
+    margin-right: 5px;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+    text-decoration: none; /* Evita el subrayado de enlace en el estado de hover */
+
+}
+@media screen and (max-width: 1280px) {
+    .card-buton{
+        margin-top: 20px
+    }
+    .card-text-2 {
+    position: relative;
+    top: 15px; /* Ajusta el valor según tus necesidades */
+}
+}
+@media screen and (max-width: 1224px) {
+    .card-buton{
+        margin-top: 40px
+    }
+    .card-title{
+        font-size: 1.4rem;
+    }
+    .card-text-2 {
+    position: relative;
+    top: 20px; /* Ajusta el valor según tus necesidades */
+}
+}
